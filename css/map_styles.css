@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Sep-2015, 16:29:47
+    Author     : dissa
+*/
+
+.nvd3.nv-pie.nv-chart-donut2 .nv-pie-title {
+    fill: rgba(70, 107, 168, 0.78);
+}
+.nvd3.nv-pie.nv-chart-donut1 .nv-pie-title {
+    opacity: 0.4;
+    fill: rgba(224, 116, 76, 0.91);
+}
+
+body{
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    margin:0;
+    overflow: hidden;
+}
+
+.mapbg{
+    background: radial-gradient(#272727 10%,#272727 10%, #121212 80%); 
+    margin-left:auto; margin-right:auto; display:block;
+}
+
+#container-main{
+    height: 100vh;
+    width: 100vw;
+}
+
+#container-inputs{
+    background-color: #cccccc;
+    width: 20vw;
+    height: 100vh;
+    border: 1px solid blue;
+    padding: 10px;
+    z-index: 40;
+    display: inline-block;
+}
+
+#container-visualization{
+    background: radial-gradient(#272727 10%, #121212 90%); 
+    position: absolute;
+    left: 20%;
+    top: 0px;
+    width: 80vw;
+    height: 100vh;
+    z-index: 10;
+}
